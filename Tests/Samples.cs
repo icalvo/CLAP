@@ -1380,7 +1380,7 @@ namespace Tests
         public int Age { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
-        public List<PhoneNumber> PhoneNumbers { get; set; }
+        public PhoneNumber[] PhoneNumbers { get; set; }
     }
 
     public class PhoneNumber
